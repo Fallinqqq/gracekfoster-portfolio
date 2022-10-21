@@ -1,3 +1,58 @@
-background: #a1ffce; /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #a1ffce, #faffd1); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #a1ffce, #faffd1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #b2dfdb;
+}
+
+body {
+    background: linear-gradient(to right, #e6e9f0, #eef1f5) ;
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    padding-top: 25px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
