@@ -28,7 +28,7 @@ header {
 header li {
     list-style: none;
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 50px;
 }
 
 header a {
@@ -51,7 +51,7 @@ body {
     padding-top: 25px;
     bottom: 0;
     width: 100%;
-    background-color: rgb(224, 224, 224);
+    background-color: #cccccc;
     color: rgb(0, 0, 0);
     text-align: center;
 }
