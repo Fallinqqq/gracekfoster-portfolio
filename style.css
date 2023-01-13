@@ -52,11 +52,14 @@
       background: linear-gradient(to right, #c1dfc4, #deecdd);
   }
 
+<<<<<<< HEAD
 
   /* contact form style/container */
  
 
 /* footer of page */
+=======
+>>>>>>> cc69f6f051a38eee394739c045247b29baad97f2
   .footer {
       position: fixed;
       left: 0;
@@ -66,5 +69,9 @@
       background-color: #badbb7;
       color: rgb(0, 0, 0);
       text-align: center;
+<<<<<<< HEAD
       font-family: verdana;
   }
+=======
+  }
+>>>>>>> cc69f6f051a38eee394739c045247b29baad97f2
