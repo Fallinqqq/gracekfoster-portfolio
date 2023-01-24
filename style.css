@@ -17,25 +17,31 @@
       justify-content: flex-end;
       align-items: center;
       padding: 20px 100px;
-      background-color: #f2fcfe;
+      background-color: #171818;
       box-shadow: 0 1px 8px #ddd;
   }
 
   #nav-title {
       margin-right: auto;
-      font-size: 1.5em;
-      font-family: Verdana;
+      font-size: 2.5em;
+      color: white;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+
+  .dropdown-menu-right
+  .dropdown-menu
 
   header li {
       list-style: none;
       display: inline-block;
       padding: 0 50px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   header a {
       text-decoration: none;
-      color: #555;
+      color: rgb(255, 255, 255);
+      font-size: 18px;
       transition: all 0.3s ease 0s;
   }
 
@@ -48,30 +54,23 @@
       list-style-type: none;
   }
 
-  body {
-      background: linear-gradient(to right, #c1dfc4, #deecdd);
+  .body {
+      background-color:  #171818;
   }
 
-<<<<<<< HEAD
 
   /* contact form style/container */
  
 
 /* footer of page */
-=======
->>>>>>> cc69f6f051a38eee394739c045247b29baad97f2
   .footer {
       position: fixed;
       left: 0;
       padding: 25px;
-      bottom: 0;
+      bottom: 3px;
       width: 100%;
-      background-color: #badbb7;
-      color: rgb(0, 0, 0);
+      background-color: #171818;
+      color: rgb(255, 255, 255);
       text-align: center;
-<<<<<<< HEAD
-      font-family: verdana;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
-=======
-  }
->>>>>>> cc69f6f051a38eee394739c045247b29baad97f2
