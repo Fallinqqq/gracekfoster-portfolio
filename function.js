@@ -1,5 +1,5 @@
 // future proof copyright year
-var d = new Date()
+let d = new Date()
 document.write(d.getFullYear())
 
 // Calling dropdown
