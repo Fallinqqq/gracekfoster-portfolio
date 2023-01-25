@@ -5,42 +5,70 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://use.typekit.net/ymr3llk.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
+    <title>Personal Portfolio</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </head>
 
 <body class="body">
 
     <!-- Navbar bootstrap -->
-    <header>
-        <h1 id="nav-title"> { Grace Foster } </h1>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-            integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-            crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" font-family="open-sans">{Grace Foster}</a>
 
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">01. Home</a></li>
-                <li><a href="projects.html">02. Projects</a></li>
-                <li><a href="about.html">03. Experiance</a></li>
-                <li><a href="contact.html">04. Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+            <!-- toggles collapse button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="container">
-    <h2 id="type-w">Hello I'm Grace, I'm a</h2>
-    <!-- <div class="container"> -->
-    <div class="typed-out">Web Developer </div></div>
+            <div class="collapse navbar-collapse" id="navmenu""">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <div class="tw-heading">
+        <h1>Hi! I'm Grace, I'm a<br></br>
+            <div class="c1">
+                <div class="type">College Student</div>
+            </div>
+            </br>
+            <div class="c2">
+                <div class="type2">Web Developer</div>
+            </div>
+            </br>
+            <div class="c3">
+                <div class="type3">Web Designer</div>
+            </div>
+            <br></br>
+        </h1>
+    </div>
+
+    <div id="gf-image">
+        <img src="images/GKF_Logo.png" alt="picture of Grace Foster" width="350px" height="350px">
+    </div>
     <!-- Footer -->
     <div class="footer">
         <p>Copyright ©
