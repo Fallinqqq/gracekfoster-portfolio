@@ -6,13 +6,23 @@
 }
 /* Body Tag */
   .body {
-      background-color:  #343a40;
-  }
+    background-image: linear-gradient(to top, #1a514f, #326e6c, #4a8d8a, #62aeaa, #7ccfcb);    }
+
+.nav-brand {
+  position: relative;
+  background: url(/images/GKF_Icon.png);
+  width: 85px;
+  left: 15px;
+  max-height: 70px; /* height of the navbar */
+}
+
+/* make navbar stick to top of page */
+
 
 /* Type Writing Effect */
 
   .tw-heading {
-    color: #7ccfcb;
+    color: #1f1f25;
   }
   .c1{
     display: inline-block;
@@ -42,7 +52,7 @@
   h1 .type{
       font-size: 2.5rem;
       overflow: hidden;
-      border-right: .15em solid #7ccfcb;
+      border-right: .15em solid #2e3030;
       white-space: nowrap; 
       width: 0;
       animation: 
@@ -51,7 +61,7 @@
   h1 .type2{
       font-size: 2.5rem; 
       overflow: hidden;
-      border-right: .15em solid #7ccfcb;
+      border-right: .15em solid #2e3030;
       white-space: nowrap; 
       width: 0;
       animation: 
@@ -61,7 +71,7 @@
   h1 .type3{
       font-size: 2.5rem; 
       overflow: hidden;
-      border-right: .15em solid #7ccfcb; 
+      border-right: .15em solid #2e3030; 
       white-space: nowrap; 
       width: 0;
       animation: 
@@ -82,50 +92,8 @@
     top: -355px;
     padding-left: 22%;
     margin-bottom: 35%;
-    
     /* add responsive imaging to img */
   }
-
-
-/* !TESTING PURPOSES! */
-/* typewriter effect 
-  .typew-container{
-    display: inline-block;
-    padding-left: 850px;
-    padding-top: 200px;
-    color: #badbb7;
-    font-family: "open-sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    }
-
-  #type-w {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: "open-sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .typed-out{
-    text-align: center;
-    overflow: hidden;
-    border-right: .1em solid rgb(80, 166, 206);
-    white-space: nowrap;
-    margin: 0;
-    margin-right: auto;
-    animation: typing 2s steps(20, end) forwards, blinking .8s infinite;
-    font-size: 1.6rem;
-    width: 0;
-  }
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  @keyframes blinking {
-    from { border-color: transparent }
-    to { border-color: white}
-  }*/
 
 /* footer of page */
   .footer {
