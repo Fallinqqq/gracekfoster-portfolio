@@ -6,7 +6,7 @@
 }
 /* Body Tag */
   .body {
-    background-color: #ffffff;    }
+    background-color: #48494B;    }
 
 .nav-brand {
   position: relative;
@@ -22,7 +22,7 @@ nav ul li:hover a {
 
 /* make navbar stick to top of page */
 .name {
-  color:rgb(0, 0, 0);
+  color: #81bbdd;
   font-size: 35px;
   font-family: 'open-sans';
   font-style: bold;
@@ -32,7 +32,8 @@ nav ul li:hover a {
 .intro-para {
   font-size: 25px;
   font-family: 'serif', cursive;
-  margin-top: 65px;
+  color: #81bbdd;
+  margin-top: 85px;
   text-align: center;
 }
 
